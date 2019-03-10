@@ -1,4 +1,80 @@
-.column {
-background-color: bg-primary;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'Segoe UI Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+        }
+
+.list-unstyled {
+padding-left: 0;
+list-style: none;
+}
+
+ul 
+{
+  text-align: left;  
+  padding-left:0pt;
+}
+
+.position-relative {
+position: relative !important;
 
 }
+
+.display-1 {
+    line-height: 1.1; }
+    @media (max-width: 767.98px) {
+      .display-1 {
+        font-size: 30px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .display-1 {
+        font-size: 4.5rem; } }
+    @media (min-width: 992px) {
+      .display-1 {
+        font-size: 120px !important;
+        line-height: 144px; } }
+  
+  @media (max-width: 767.98px) {
+    .display-2 {
+      font-size: 30px; } }
+  
+  @media (max-width: 767.98px) {
+    .display-3,
+    h2,
+    .h2 {
+      font-size: 24px; } }
+  
+  @media (max-width: 767.98px) {
+    h3, .h3 {
+      font-size: 14px;
+      margin-bottom: 4px; } }
+  
+  @media (min-width: 768px) {
+    p + h3,
+    ul + h3 {
+      margin-top: 1.618em; } }
+  
+  @media (max-width: 767.98px) {
+    p {
+      margin-bottom: 1.5rem; } }
+  
+  @media (max-width: 767.98px) {
+    body {
+      font-size: 14px; } }
+  
+  @media (min-width: 768px) {
+    .w-md-auto {
+      width: auto !important; } }
+  

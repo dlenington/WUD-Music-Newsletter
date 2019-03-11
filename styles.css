@@ -21,6 +21,19 @@ body {
 padding-left: 0;
 list-style: none;
 }
+.red{
+  background-color: #ea4527;
+
+}
+.blue {
+  background-color: #6bade0;
+
+}
+
+.green {
+  background-color: #7ae25a;
+
+}
 
 ul 
 {
